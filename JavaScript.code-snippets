@@ -1,0 +1,11 @@
+{
+  "Print to console": {
+    "prefix": "log",
+    "body": ["console.log($1);"],
+    "description": "Log output to console"
+  },
+  "TryCatch": {
+    "prefix": "try",
+    "body": ["try {", "  $1", "} catch (e) {", "  ", "}"]
+  }
+}

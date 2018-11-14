@@ -1,9 +1,4 @@
 {
-  "Print to console": {
-    "prefix": "log",
-    "body": ["console.log($1);"],
-    "description": "Log output to console"
-  },
   "Scaffold": {
     "prefix": "scaffoldts",
     "body": [
@@ -39,9 +34,5 @@
       "",
       "export { $1 };"
     ]
-  },
-  "TryCatch": {
-    "prefix": "try",
-    "body": ["try {", "  $1", "} catch (e) {", "  ", "}"]
   }
 }
