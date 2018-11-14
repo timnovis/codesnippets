@@ -1,0 +1,47 @@
+{
+  "Print to console": {
+    "prefix": "log",
+    "body": ["console.log($1);"],
+    "description": "Log output to console"
+  },
+  "Scaffold": {
+    "prefix": "scaffoldts",
+    "body": [
+      "import * as React from 'react';",
+      "",
+      "class $1 extends React.Component {",
+      "  public render() {",
+      "    return (",
+      "      <div>",
+      "        $2",
+      "      </div>",
+      "    );",
+      "  }",
+      "}",
+      "",
+      "export { $1 };"
+    ]
+  },
+  "ScaffoldFunctional": {
+    "prefix": "scaffoldsfc",
+    "body": [
+      "import * as React from 'react';",
+      "",
+      "interface Props {}",
+      "",
+      "const $1: React.SFC<Props> = props => {",
+      " return (",
+      "   <div>",
+      "     $2",
+      "   </div>",
+      " );",
+      "}",
+      "",
+      "export { $1 };"
+    ]
+  },
+  "TryCatch": {
+    "prefix": "try",
+    "body": ["try {", "  $1", "} catch (e) {", "  ", "}"]
+  }
+}
