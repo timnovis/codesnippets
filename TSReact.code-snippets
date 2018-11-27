@@ -24,7 +24,7 @@
       "",
       "interface Props {}",
       "",
-      "const $1: React.SFC<Props> = props => {",
+      "const $1: React.FunctionComponent<Props> = props => {",
       " return (",
       "   <div>",
       "     $2",
